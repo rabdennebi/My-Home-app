@@ -1,0 +1,100 @@
+.DottedBox{
+  border-radius:30px;
+  overflow: auto;
+  margin: 5px;  
+  width: 484px;
+}
+.ant-table-selection-col, .ant-table-selection-column, .anticon-right {
+  display: none;
+}
+.bull{
+
+  background-color: #74992e;
+}
+.ant-layout{
+  background-color: darkolivegreen;
+}
+.bullMeteo{
+  margin-top: -8px;
+}
+.DottedBoxDroit{
+  border-radius: 30px;
+  
+  overflow: auto;
+  margin: 5px;
+  width: 376px;
+}
+.DottedBoxLeft{
+  border-radius: 30px;
+  
+  overflow: auto;
+  margin: 5px;
+  width: 340px;
+}
+.DottedBox_content {
+  padding: 10px;
+}
+
+.DottedSncfBox{
+  border-radius:30px;
+  background-color:#74992e;
+  overflow: auto;
+  border: 1px solid #e8e8e8;
+  margin: 5px;
+}
+
+.DottedSncfBox_content {
+  overflow: auto;
+  height: 260px;
+  padding: 10px;
+}
+
+.DottedToDoBox_content {
+  overflow: auto;
+  height: 283px;
+  padding: 10px;
+}
+
+.DottedFitnessBox_content {
+  overflow: auto;
+  height: 160px;
+  padding: 10px;
+}
+
+.DottedBottomLeftBox_content {
+  overflow: auto;
+  height: 135px;
+  padding: 10px;
+}
+
+.DottedSncf1Box{
+  
+  border: '1px solid #e8e8e8';
+ 
+}
+.frontSizeLarge{
+  font-size: large;
+}
+.DottedSncf1Box_content {
+  padding: 10px;
+}
+
+.todo{
+  height: 201px;
+}
+.image{
+  height: 41px;
+}
+.tailFixe {
+  height: 177px;
+}
+.tailFixeFitness {
+  height: 140px;
+}
+.tailFixeMeteo {
+  height: 159px;
+}
+.marginRight{
+
+  margin-right: 10px;
+}
