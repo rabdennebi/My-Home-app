@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Row, Col, List, Skeleton, Empty } from 'antd';
 import './myStyle.css';
 
-const puppeteer = require('puppeteer');
+//const puppeteer = require('puppeteer');
 //const puppeteer = require("puppeteer-core");
 const data = [
 	'Racing car sprays burning fuel into crowd.',
@@ -33,8 +33,8 @@ class FitnessParkBoard extends Component {
 		loading: false,
       };
       render() {
-        const gto = getData();
-        return gto? (
+        //const gto = getData();
+        return 1==1? (
             <div className="DottedFitnessBox_content tailFixeFitness">
                
                 <List
@@ -68,7 +68,7 @@ class FitnessParkBoard extends Component {
 
 }
 
-
+/*
 const getData = async () => {
   // 1 - Créer une instance de navigateur
   const browser = await puppeteer.launch();
@@ -86,6 +86,6 @@ const getData = async () => {
   // 4 - Retourner les données (et fermer le navigateur)
   browser.close()
   return result
-}
+}*/
 
 export default FitnessParkBoard;
