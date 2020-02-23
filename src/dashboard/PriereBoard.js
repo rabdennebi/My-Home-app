@@ -212,10 +212,10 @@ class PriereWeekBoard extends Component {
             }
            let jour = items.filter(item =>{
             return item.date === dateNow;
-           });
+           });/*
            this.setState({
             selectedRowKeys:  [jour[0].key]
-           })
+           })*/
            this.setState({week : items});
         })
     }

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Row, Col, List, Skeleton, Empty } from 'antd';
+import { Row, Col, List, Skeleton } from 'antd';
 import './myStyle.css';
 
 //const puppeteer = require('puppeteer');
@@ -34,7 +34,7 @@ class FitnessParkBoard extends Component {
       };
       render() {
         //const gto = getData();
-        return 1==1? (
+        return (
             <div className="DottedFitnessBox_content tailFixeFitness">
                
                 <List
@@ -63,7 +63,7 @@ class FitnessParkBoard extends Component {
                 />  
             </div>
 
-        ):<Empty />;
+        );
     }
 
 }
